@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+	
+    <title>Path</title>
+
+    <!-- Bootstrap core CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<link href="css/path.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+<div id="game">
+
+	<div class="container" id="screen01">
+		<div class="game-container">
+			<div class="whitetop" style="height:420px;">
+			<div class="labelname labeloverview">
+					<span> 1/3 </span>
+			</div>
+			<br /><br /><br />
+			<p class="blacktext"> <span class="orangetext strong">OVERVIEW:</span> 
+				A set of blocks with different angles will appear on your screen.
+				</p>	
+			<br /><br />
+			<table class="gameboard">
+			
+			<tr>
+				<td class="imgdrop" id="tcell11" data-id="1" data-img="13">
+				<img src="images/13.png" class="imgdrop" data-id="1" data-img="13" />
+				</td>
+				
+				<td class="imgdrop" id="tcell12" data-id="2" data-img="8">
+				
+				</td>
+				
+				<td class="dragdromdisable" id="tcell13" data-id="3" data-img="7">
+				<img src="images/7.png" class="dragdromdisable" data-id="3" data-img="7" />
+				</td>				
+			</tr>
+			
+			<tr>
+				<td class="imgdrop" id="tcell21" data-id="4" data-img="9">
+				<img src="images/9.png" class="imgdrag" data-id="4" data-img="9" />
+				</td>
+				
+				<td class="imgdrop" id="tcell22" data-id="5" data-img="10">
+				<img src="images/10.png" class="imgdrag" data-id="5" data-img="10" />
+				</td>
+				
+				<td class="imgdrop" id="tcell23" data-id="6" data-img="12">
+				<img src="images/12.png" class="imgdrag" data-id="6" data-img="12" />
+				</td>				
+			</tr>
+			<tr>
+				<td class="dragdromdisable" id="tcell31" data-id="7" data-img="5">
+				<img src="images/5.png" class="dragdromdisable" data-id="7" data-img="10" />
+				</td>
+				
+				<td class="imgdrop" id="tcell32" data-id="8" data-img="0" >
+				
+				</td>
+				
+				<td class="dragdromdisable" id="tcell33" data-id="9" data-img="2">
+				<img src="images/2.png" class="dragdromdisable" data-id="6" data-img="2" />
+				</td>				
+			</tr>			
+			</table>			
+			</div>
+			
+			
+			
+			
+		</div>
+			<div class="navigation-container">
+
+				<button class="navigation-next btnNextOverview" data-next-screen="02" value="Next"> NEXT </button>
+			</div>			
+	</div>		
+	
+
+	<div class="container" id="screen02">
+		<div class="game-container">
+			<div class="whitetop" style="height:420px;">
+			<div class="labelname labeloverview">
+					<span> 2/3 </span>
+			</div>
+			<br /><br /><br />
+			<p class="blacktext"> <span class="orangetext strong">OVERVIEW:</span> 
+				Connect a path between the orange end points by sliding the blocks.
+				</p>	
+			<br /><br />
+			<table class="gameboard">
+			
+			<tr>
+				<td class="imgdrop" id="tcell11" data-id="1" data-img="13">
+				<img src="images/13.png" class="imgdrop" data-id="1" data-img="13" />
+				</td>
+				
+				<td class="imgdrop" id="tcell12" data-id="2" data-img="8">
+				
+				</td>
+				
+				<td class="dragdromdisable" id="tcell13" data-id="3" data-img="7">
+				<img src="images/7.png" class="dragdromdisable" data-id="3" data-img="7" />
+				</td>				
+			</tr>
+			
+			<tr>
+				<td class="imgdrop" id="tcell21" data-id="4" data-img="9">
+				<img src="images/9.png" class="imgdrag" data-id="4" data-img="9" />
+				</td>
+				
+				<td class="imgdrop" id="tcell22" data-id="5" data-img="10">
+				<img src="images/10.png" class="imgdrag" data-id="5" data-img="10" />
+				</td>
+				
+				<td class="imgdrop" id="tcell23" data-id="6" data-img="12">
+				<img src="images/12.png" class="imgdrag" data-id="6" data-img="12" />
+				</td>				
+			</tr>
+			<tr>
+				<td class="dragdromdisable" id="tcell31" data-id="7" data-img="5">
+				<img src="images/5.png" class="dragdromdisable" data-id="7" data-img="10" />
+				</td>
+				
+				<td class="imgdrop" id="tcell32" data-id="8" data-img="0" >
+				
+				</td>
+				
+				<td class="dragdromdisable" id="tcell33" data-id="9" data-img="2">
+				<img src="images/2.png" class="dragdromdisable" data-id="6" data-img="2" />
+				</td>				
+			</tr>			
+			</table>			
+			</div>
+			
+			
+			
+			
+		</div>
+			<div class="navigation-container">
+				<button class="navigation-back btnNextOverview" data-next-screen="01" value="Next"> BACK </button>
+				<button class="navigation-next btnNextOverview" data-next-screen="1" value="Next"> NEXT </button>
+			</div>			
+	</div>
+	
+	
+	<div class="container" id="screen1">
+		<div class="game-container">
+			<div class="whitetop" style="height:420px;">
+			<div class="labelname labeloverview">
+					<span> 3/3 </span>
+			</div>			
+			<br /><br /><br /><br /><br />
+			<p class="blacktext"> <span class="orangetext strong">GUIDELINES:</span>
+			<span class="strong"> You will have 1 minute to complete each round!</span></p>
+			<br />
+			<p class="blacktext">There are 3 rounds in total.</p>	
+			<br /><br />
+			<p class="blacktext italic">(Some levels may have extra blocks that you don’t have to use.)</p>	
+			
+			<br /><br />
+			<p class="blacktext">This will take about 2-3 minutes to complete.</p>	
+						
+						
+			</div>
+			<a href="#" class="nextgamelink clicktobegin" data-next-screen="2">
+			CLICK TO BEGIN
+			</a>
+
+		</div>
+			<div class="navigation-container">
+				<button class="navigation-back btnNextOverview" data-next-screen="02" value="Next"> BACK </button>
+				
+			</div>			
+	</div>
+
+	<!--
+    <div class="container" id="screen1">
+		<div class="game-container" id="lavelx">
+
+			
+			<div class="gamewrapper">	
+			<table class="gameboard">
+			
+			<tr>
+				<td class="imgdrop" id="tcell11" data-id="1" data-img="13">
+				<img src="images/13.png" class="imgdrop" data-id="1" data-img="13" />
+				</td>
+				
+				<td class="imgdrop" id="tcell12" data-id="2" data-img="8">
+				
+				</td>
+				
+				<td class="dragdromdisable" id="tcell13" data-id="3" data-img="7">
+				<img src="images/7.png" class="dragdromdisable" data-id="3" data-img="7" />
+				</td>				
+			</tr>
+			
+			<tr>
+				<td class="imgdrop" id="tcell21" data-id="4" data-img="9">
+				<img src="images/9.png" class="imgdrag" data-id="4" data-img="9" />
+				</td>
+				
+				<td class="imgdrop" id="tcell22" data-id="5" data-img="10">
+				<img src="images/10.png" class="imgdrag" data-id="5" data-img="10" />
+				</td>
+				
+				<td class="imgdrop" id="tcell23" data-id="6" data-img="12">
+				<img src="images/12.png" class="imgdrag" data-id="6" data-img="12" />
+				</td>				
+			</tr>
+			<tr>
+				<td class="dragdromdisable" id="tcell31" data-id="7" data-img="5">
+				<img src="images/5.png" class="dragdromdisable" data-id="7" data-img="10" />
+				</td>
+				
+				<td class="imgdrop" id="tcell32" data-id="8" data-img="0" >
+				
+				</td>
+				
+				<td class="dragdromdisable" id="tcell33" data-id="9" data-img="2">
+				<img src="images/2.png" class="dragdromdisable" data-id="6" data-img="2" />
+				</td>				
+			</tr>			
+			</table>
+			
+			<div class="success">
+			<img src="images/success.png" style="margin-top:135px" />
+			</div>
+			</div>
+			
+		<div class="tutorialdemotxt">
+
+		Connect a path between the end points by sliding the blocks. <br />
+		Some levels may have extra blocks that you don’t have to use.		
+		</div>
+		
+		</div>
+	</div>
+
+	<div class="container" id="screen2">
+		<div class="game-container thankyouscreen">
+			<div class="graytop">
+			<h3>&nbsp;</h3>
+			<a href="#" class="replaytxt">Replay Instructions</a>
+			</div>
+			<a href="#" class="nextgamelink clicktobegin">
+			CLICK TO BEGIN
+			</a>
+
+		</div>
+	</div>	
+	-->
+	
+
+    <div class="container" id="screen3">
+		<div class="game-container" id="lavel1">
+				<div class="labelname">
+					<span> 1/3 </span>
+				</div>
+				<div class="lavelprogress">
+				<div class="lavelprogressbar" data-width="310"></div>
+				</div>
+			<div class="gamewrapper">	
+			<table class="gameboard">
+			
+			<tr>
+				<td class="dragdromdisable" id="l1cell11" data-id="1" data-img="4">
+				<img src="images/4.png" class="dragdromdisable" data-id="1" data-img="4" />
+				</td>
+				
+				<td class="imgdrop" id="l1cell12" data-id="2" data-img="8">
+				<img src="images/8.png" class="imgdrag" data-id="2" data-img="8" />
+				</td>
+				
+				<td class="dragdromdisable" id="l1cell13" data-id="3" data-img="2">
+				<img src="images/2.png" class="dragdromdisable" data-id="3" data-img="2" />
+				</td>				
+			</tr>
+			
+			<tr>
+				<td class="imgdrop" id="l1cell21" data-id="4" data-img="9">
+				<img src="images/9.png" class="imgdrag" data-id="4" data-img="9" />
+				</td>
+				
+				<td class="imgdrop" id="l1cell22" data-id="5" data-img="12">
+				<img src="images/12.png" class="imgdrag" data-id="5" data-img="12" />
+				</td>
+				
+				<td class="dragdromdisable" id="l1cell23" data-id="6" data-img="7">
+				<img src="images/7.png" class="dragdromdisable" data-id="6" data-img="7" />
+				</td>				
+			</tr>
+			<tr>
+				<td class="imgdrop" id="l1cell31" data-id="7" data-img="10">
+				<img src="images/10.png" class="imgdrag" data-id="7" data-img="10" />
+				</td>
+				
+				<td class="imgdrop" id="l1cell32" data-id="8" data-img="0" >
+				
+				</td>
+				
+				<td class="imgdrop" id="l1cell33" data-id="9" data-img="0">
+				
+				</td>				
+			</tr>			
+			</table>
+			
+			<div class="success">
+			<img src="images/success.png" />
+			</div>
+			</div>
+		
+		</div>
+	</div>
+	
+<!-- ------------------------------------------------------------------------------------------- -->
+
+	<div class="container" id="screen4">
+		<div class="game-container" id="lavel2">
+				<div class="labelname">
+					<span> 2/3 </span>
+				</div>
+				<div class="lavelprogress">
+				<div class="lavelprogressbar" data-width="310"></div>
+				</div>
+			<div class="gamewrapper">	
+			<table class="gameboard">
+			
+			<tr>
+				<td class="dragdromdisable" id="l2cell11" data-id="1" data-img="3">
+				<img src="images/3.png" class="dragdromdisable" data-id="1" data-img="3" />
+				</td>
+				
+				<td class="imgdrop" id="l2cell12" data-id="2" data-img="12">
+				<img src="images/12.png" class="imgdrag" data-id="2" data-img="12" />
+				</td>
+				
+				<td class="imgdrop" id="l2cell13" data-id="3" data-img="10">
+				<img src="images/10.png" class="imgdrag" data-id="3" data-img="10" />
+				</td>				
+			</tr>
+			
+			<tr>
+				<td class="imgdrop" id="l2cell21" data-id="4" data-img="0">
+				
+				</td>
+				
+				<td class="imgdrop" id="l2cell22" data-id="5" data-img="13">
+				<img src="images/13.png" class="imgdrag" data-id="5" data-img="13" />
+				</td>
+				
+				<td class="imgdrop" id="l2cell23" data-id="6" data-img="0">
+				
+				</td>				
+			</tr>
+			<tr>
+				<td class="dragdromdisable" id="l2cell31" data-id="7" data-img="6">
+				<img src="images/6.png" class="dragdromdisable" data-id="7" data-img="6" />
+				</td>
+				
+				<td class="imgdrop" id="l2cell32" data-id="8" data-img="11" >
+				<img src="images/11.png" class="imgdrag" data-id="8" data-img="11" />
+				</td>
+				
+				<td class="imgdrop" id="l2cell33" data-id="9" data-img="9">
+				<img src="images/9.png" class="imgdrag" data-id="9" data-img="9" />
+				</td>				
+			</tr>			
+			</table>
+			
+			<div class="success">
+			<img src="images/success.png" />
+			</div>
+			</div>
+		
+		</div>
+	</div>
+
+<!-- ------------------------------------------------------------------------------------------- -->
+
+	<div class="container" id="screen5">
+		<div class="game-container" id="lavel3">
+				<div class="labelname">
+					<span> 3/3 </span>
+				</div>
+				<div class="lavelprogress">
+				<div class="lavelprogressbar" data-width="310"></div>
+				</div>
+			<div class="gamewrapper">	
+			<table class="gameboard">
+			
+			<tr>
+				<td class="imgdrop" id="l3cell11" data-id="1" data-img="9">
+				<img src="images/9.png" class="imgdrag" data-id="1" data-img="9" />
+				</td>
+				
+				<td class="imgdrop" id="l3cell12" data-id="2" data-img="0">
+				
+				</td>
+				
+				<td class="dragdromdisable" id="l3cell13" data-id="3" data-img="4">
+				<img src="images/4.png" class="dragdromdisable" data-id="3" data-img="4" />
+				</td>				
+			</tr>
+			
+			<tr>
+				<td class="imgdrop" id="l3cell21" data-id="4" data-img="13">
+				<img src="images/13.png" class="imgdrag" data-id="4" data-img="13" />
+				</td>
+				
+				<td class="imgdrop" id="l3cell22" data-id="5" data-img="13">
+				<img src="images/9.png" class="imgdrag" data-id="5" data-img="9" />
+				</td>
+				
+				<td class="imgdrop" id="l3cell23" data-id="6" data-img="11">
+				<img src="images/11.png" class="imgdrag" data-id="6" data-img="11" />
+				</td>				
+			</tr>
+			<tr>
+				<td class="dragdromdisable" id="l3cell31" data-id="7" data-img="3">
+				<img src="images/3.png" class="dragdromdisable" data-id="7" data-img="3" />
+				</td>
+				
+				<td class="imgdrop" id="l3cell32" data-id="8" data-img="10" >
+				<img src="images/10.png" class="imgdrag" data-id="8" data-img="10" />
+				</td>
+				
+				<td class="imgdrop" id="l3cell33" data-id="9" data-img="0">
+				
+				</td>				
+			</tr>			
+			</table>
+			
+			<div class="success">
+			<img src="images/success.png" />
+			</div>
+			</div>
+		
+		</div>
+	</div>
+	
+	<div class="container" id="screen6">
+		<div class="game-container thankyouscreen">
+			<div class="graytop">
+			<h3>Thanks for Playing!</h3>
+			We measured your level of <span class="orangetext strong">Creativity</span>, <span class="orangetext strong">Planning</span> and <span class="orangetext strong">Problem Solving</span> ability.
+			</div>
+			<a href="#" class="nextgamelink">
+			CLICK TO BEGIN NEXT GAME!
+			</a>
+
+		</div>
+	</div>	
+	
+	
+	
+	
+	
+</div>	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>')</script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="jquery-ui/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/path.js"></script>
+  </body>
+</html>

@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+	
+    <title>Cases</title>
+
+    <!-- Bootstrap core CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<link href="css/cases.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+<div id="game">
+
+	<div class="container" id="screen01">
+		<div class="game-container noborder">
+			<div class="whitetop hasborder">
+			<div class="labelname labeloverview">
+					<span> 1/7 </span>
+			</div>
+			<br/><br/><br/><br/><br />
+			<p class="blacktext"> <span class="boldorange">OVERVIEW 1/5:</span> 
+				A set of briefcases will appear on your screen, which can be opened one-by-one.</p>	
+			<br/><br/>
+			
+			<div class="casesContainer">
+			<div class="caseSingle"> <img src="images/case.png" /> </div>
+			<div class="caseSingle"> <img src="images/case.png" /> </div>
+			<div class="caseSingle"> <img src="images/case.png" /> </div>
+			<div class="caseSingle"> <img src="images/case.png" /> </div>
+			</div>
+			<div class="casesContainer">
+			<div class="caseSingle"> <img src="images/case.png" /> </div>
+			<div class="caseSingle"> <img src="images/case.png" /> </div>
+			<div class="caseSingle"> <img src="images/case.png" /> </div>
+			<div class="caseSingle"> <img src="images/case.png" /> </div>
+			</div>			
+			
+			<div class="casesContainer">
+			<div class="caseSingle"> <img src="images/case.png" /> </div>
+			<div class="caseSingle"> <img src="images/case.png" /> </div>
+			<div class="caseSingle"> <img src="images/case.png" /> </div>
+			<div class="caseSingle"> <img src="images/case.png" /> </div>
+			</div>
+
+			
+			</div>
+			
+			
+			<div class="navigation-container">				
+				<button class="navigation-next btnNextOverview" data-next-screen="02" value="Next"> NEXT </button>
+			</div>				
+		</div>
+	</div>	
+	
+	<div class="container" id="screen02">
+		<div class="game-container noborder">
+			<div class="whitetop hasborder">
+			<div class="labelname labeloverview">
+					<span> 2/7 </span>
+			</div>			
+			<br/><br/><br/><br/><br />
+			
+			<div class="clear"></div><br/><br/>
+			<p class="plaintext"><span class="boldorange">OVERVIEW 2/5:</span>  You will have a <span class="strongboldorange"> Temporary Bank</span>, and a <span class="strongboldblue">Permanent Bank</span>.</p>
+			<br/>
+			<div class="casesButton">
+			
+					<div class="button_bank btnTemporary">
+					<div class="bankText"> TEMPORARY BANK </div>
+					<div class="amountSpan">
+					<span class="bankAmount">$</span>
+					<span class="bankAmount totalAmount">0.00</span>
+					</div>
+					</div>
+				
+					<div class="button_bank btnPermanent">
+					<div class="bankText"> PERMANENT BANK </div>
+					<div class="amountSpan">
+					<span class="bankAmount">$</span>
+					<span class="bankAmount totalAmount">0.00</span>
+					</div>
+					</div>				
+			</div>
+			</div>
+			
+			<div class="navigation-container">
+				<button class="navigation-back btnNextOverview" data-next-screen="01" value="Next"> BACK </button>
+				<button class="navigation-next btnNextOverview" data-next-screen="03" value="Next"> NEXT </button>
+			</div>	
+			
+		</div>
+	</div>	
+	
+	<div class="container" id="screen03">
+		<div class="game-container noborder">
+			<div class="whitetop hasborder">
+			<div class="labelname labeloverview">
+					<span> 3/7 </span>
+			</div>			
+			<br/><br/><br />
+			
+			<p class="blacktext"> <span class="boldorange">OVERVIEW 3/5:</span> 
+				Some briefcases have cash inside which,</p>	
+				<p> once opened, will add to your <span class="boldorange">Temporary Bank</span>. </p>
+			<br/>
+			
+			
+			<div class="casesContainer">
+			<div class="caseSingle"> <img src="images/case.png" /> </div>
+			<div class="caseSingle"> <img src="images/case.png" />  <span> $1 </span> </div>
+			<div class="caseSingle"> <img src="images/case.png" /> </div>
+			<div class="caseSingle"> <img src="images/case.png" /> </div>
+			</div>
+			
+			
+			<div class="casesButton" style="margin-top:100px;">
+			
+					<div class="button_bank btnTemporary">
+					<div class="bankText"> TEMPORARY BANK </div>
+					<div class="amountSpan">
+					<span class="bankAmount">$</span>
+					<span class="bankAmount totalAmount">1.00</span>
+					</div>
+					</div>
+				
+					<div class="button_bank btnPermanent">
+					<div class="bankText"> PERMANENT BANK </div>
+					<div class="amountSpan">
+					<span class="bankAmount">$</span>
+					<span class="bankAmount totalAmount">0.00</span>
+					</div>
+					</div>				
+			</div>
+			</div>
+			
+			<div class="navigation-container">
+				<button class="navigation-back btnNextOverview" data-next-screen="02" value="Next"> BACK </button>
+				<button class="navigation-next btnNextOverview" data-next-screen="04" value="Next"> NEXT </button>
+			</div>	
+			
+		</div>
+	</div>	
+	
+	<div class="container" id="screen04">
+		<div class="game-container noborder">
+			<div class="whitetop hasborder">
+			<div class="labelname labeloverview">
+					<span> 4/7 </span>
+			</div>			
+			<br/><br/><br />
+			
+			<p class="blacktext"> <span class="boldorange">OVERVIEW 4/5:</span> 
+				Other briefcases have an ‘X’ symbol which, if opened, will erase your</p>	
+				<p> <span class="boldorange">Temporary Bank</span>, and begin the next level. </p>
+			<br/>
+			
+			
+			<div class="casesContainer">
+			<div class="caseSingle"> <img src="images/case.png" /> </div>
+			<div class="caseSingle"> <img src="images/case.png" />  <span> $1 </span> </div>
+			<div class="caseSingle"> <img src="images/case.png" /> <span> X </span> </div>
+			<div class="caseSingle"> <img src="images/case.png" /> </div>
+			</div>
+			
+			
+			<div class="casesButton" style="margin-top:100px;">
+			
+					<div class="button_bank btnTemporary">
+					<div class="bankText"> TEMPORARY BANK </div>
+					<div class="amountSpan">
+					<span class="bankAmount">$</span>
+					<span class="bankAmount totalAmount">0.00</span>
+					</div>
+					</div>
+				
+					<div class="button_bank btnPermanent">
+					<div class="bankText"> PERMANENT BANK </div>
+					<div class="amountSpan">
+					<span class="bankAmount">$</span>
+					<span class="bankAmount totalAmount">0.00</span>
+					</div>
+					</div>				
+			</div>
+			</div>
+			<div class="navigation-container">
+				<button class="navigation-back btnNextOverview" data-next-screen="03" value="Next"> BACK </button>
+				<button class="navigation-next btnNextOverview" data-next-screen="05" value="Next"> NEXT </button>
+			</div>	
+		</div>
+	</div>	
+		
+
+	<div class="container" id="screen05">
+		<div class="game-container noborder">
+			<div class="whitetop hasborder">
+			<div class="labelname labeloverview">
+					<span> 5/7 </span>
+			</div>			
+			<br/><br/><br />
+			
+			<p class="blacktext"> <span class="boldorange">OVERVIEW 5/5:</span> 
+				To save the cash from your <span class="strongboldorange"> Temporary Bank</span> to your <span class="strongboldblue">Permanent Bank</span>, </p>	
+				<p> click the <span class="strongboldblue">Permanent Bank</span> box <span class="italic">(this will also start the next level)</span>. </p>
+			<br/>
+			
+			
+			<div class="casesContainer">
+			<div class="caseSingle"> <img src="images/case.png" /> </div>
+			<div class="caseSingle"> <img src="images/case.png" />  <span> $1 </span> </div>
+			<div class="caseSingle"> <img src="images/case.png" /> <span> X </span> </div>
+			<div class="caseSingle"> <img src="images/case.png" /> </div>
+			</div>
+			
+			
+			<div class="casesButton" style="margin-top:100px;">
+			
+					<div class="button_bank btnTemporary">
+					<div class="bankText"> TEMPORARY BANK </div>
+					<div class="amountSpan">
+					<span class="bankAmount">$</span>
+					<span class="bankAmount totalAmount">0.00</span>
+					</div>
+					</div>
+				
+					<div class="button_bank btnPermanent">
+					<div class="bankText"> PERMANENT BANK </div>
+					<div class="amountSpan">
+					<span class="bankAmount">$</span>
+					<span class="bankAmount totalAmount">0.00</span>
+					</div>
+					</div>				
+			</div>
+			</div>
+			
+			<div class="navigation-container">
+				<button class="navigation-back btnNextOverview" data-next-screen="04" value="Next"> BACK </button>
+				<button class="navigation-next btnNextOverview" data-next-screen="06" value="Next"> NEXT </button>
+			</div>	
+		</div>
+	</div>
+	
+	<div class="container" id="screen06">
+		<div class="game-container noborder">
+			<div class="whitetop hasborder">
+			<div class="labelname labeloverview">
+					<span> 6/7 </span>
+			</div>			
+			<br/><br/><br/><br/><br/><br/><br/><br/><br />
+			
+			<p class="blacktext"> <span class="boldorange">GOAL:</span> 
+				 Earn as much cash as possible. </p>
+			
+			
+			
+			</div>
+			<div class="navigation-container">
+				<button class="navigation-back btnNextOverview" data-next-screen="05" value="Next"> BACK </button>
+				<button class="navigation-next btnNextOverview" data-next-screen="07" value="Next"> NEXT </button>
+			</div>		
+		</div>
+	</div>
+	
+	
+	<div class="container" id="screen07">
+		<div class="game-container">
+			<div class="whitetop" style="height:420px;">
+			<div class="labelname labeloverview">
+					<span> 7/7 </span>
+			</div>			
+			<br /><br /><br /><br /><br /><br />
+			<p class="plaintext"><span class="boldorange"> GUIDELINES: </span> For each additional briefcase you open, you will earn an extra $0.50 cents. </p>
+			<p class="plaintext"> However, the more you open in one round, <span class="strong"> the more risk you take of losing your cash!</span> </p>
+			
+			<br /><br />
+			<p class="plaintext"> Continue to each level until the game is over.</p>
+			<br /><br />
+			<p class="plaintext"> This will take about 2 minutes to complete.</p>
+			
+			</div>
+			<a href="#" class="nextgamelink clicktobegin">
+			CLICK TO BEGIN
+			</a>
+
+		</div>
+			<div class="navigation-container">
+				<button class="navigation-back btnNextOverview" data-next-screen="06" value="Next"> BACK </button>
+				
+			</div>			
+	</div>	
+
+
+	<div class="container" id="screen7">
+		<div class="game-container" id="lavel1">
+				<div class="labelname">
+					<span> 1/3 </span>
+				</div>
+			<div class="clear"></div>
+			<br /><br />
+			
+			<div class="casesContainer" data-next-level="2">
+			<div class="caseSingle level1" data-id="1" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level1" data-id="2" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level1" data-id="3" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level1" data-id="4" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			</div>
+			
+			<div class="casesContainer" data-next-level="2">
+			<div class="caseSingle level1" data-id="1" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level1" data-id="2" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level1" data-id="3" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level1" data-id="4" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			</div>	
+			
+			<div class="casesContainer" data-next-level="2">
+			<div class="caseSingle level1" data-id="1" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level1" data-id="2" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level1" data-id="3" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level1" data-id="4" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			</div>		
+			
+			<div class="clear"></div>
+			<br /><br />
+			
+			
+				<div class="casesButton" data-next-level="2" id="lavel1BankButtons">
+				
+					<div class="button_bank btnTemporary">
+					<div class="bankText"> TEMPORARY BANK </div>
+					<div class="amountSpan">
+					<span class="bankAmount">$</span>
+					<span class="bankAmount totalAmount" data-value="0.00">0.00</span>
+					</div>
+					</div>
+				
+					<div class="button_bank btnPermanent" id="level1PermanentBtn" data-case-open="0">
+					<div class="bankText"> PERMANENT BANK </div>
+					<div class="amountSpan">
+					<span class="bankAmount">$</span>
+					<span class="bankAmount totalAmount" data-value="0.00">0.00</span>
+					</div>
+					</div>			
+				</div>
+		
+		</div>
+	</div>
+
+<div class="container" id="screen8">
+		<div class="game-container" id="lavel2">
+				<div class="labelname">
+					<span> 2/3 </span>
+				</div>
+			<div class="clear"></div>
+			<br /><br />
+			<div class="casesContainer" data-next-level="3">
+			<div class="caseSingle level2" data-id="1" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level2" data-id="2" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level2" data-id="3" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level2" data-id="4" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			</div>
+			
+			<div class="casesContainer" data-next-level="3">
+			<div class="caseSingle level2" data-id="1" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level2" data-id="2" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level2" data-id="3" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level2" data-id="4" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			</div>		
+			
+			<div class="casesContainer" data-next-level="3">
+			<div class="caseSingle level2" data-id="1" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level2" data-id="2" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level2" data-id="3" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level2" data-id="4" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			</div>	
+			
+			<div class="clear"></div>
+			<br /><br />
+			
+			
+				<div class="casesButton" data-next-level="3" id="lavel2BankButtons">
+				
+					<div class="button_bank btnTemporary">
+					<div class="bankText"> TEMPORARY BANK </div>
+					<div class="amountSpan">
+					<span class="bankAmount">$</span>
+					<span class="bankAmount totalAmount" data-value="0.00">0.00</span>
+					</div>
+					</div>
+				
+					<div class="button_bank btnPermanent" id="level2PermanentBtn" data-case-open="0">
+					<div class="bankText"> PERMANENT BANK </div>
+					<div class="amountSpan">
+					<span class="bankAmount">$</span>
+					<span class="bankAmount totalAmount" data-value="0.00">0.00</span>
+					</div>
+					</div>			
+				</div>
+		
+		</div>
+	</div>
+	
+	<div class="container" id="screen9">
+		<div class="game-container" id="lavel3">
+				<div class="labelname">
+					<span> 3/3 </span>
+				</div>
+			<div class="clear"></div>
+			<br /><br />
+			<div class="casesContainer" data-next-level="0">
+			<div class="caseSingle level3" data-id="1" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level3" data-id="2" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level3" data-id="3" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level3" data-id="4" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			</div>
+			
+			<div class="casesContainer" data-next-level="0">
+			<div class="caseSingle level3" data-id="1" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level3" data-id="2" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level3" data-id="3" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level3" data-id="4" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			</div>	
+			
+			<div class="casesContainer" data-next-level="0">
+			<div class="caseSingle level3" data-id="1" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level3" data-id="2" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level3" data-id="3" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			<div class="caseSingle level3" data-id="4" data-value="0"> 
+			<img src="images/case.png" /><span class="hideDefault">x</span></div>
+			</div>	
+			
+			<div class="clear"></div>
+			<br /><br />
+			
+			
+				<div class="casesButton" data-next-level="0" id="lavel3BankButtons">
+				
+					<div class="button_bank btnTemporary">
+					<div class="bankText"> TEMPORARY BANK </div>
+					<div class="amountSpan">
+					<span class="bankAmount">$</span>
+					<span class="bankAmount totalAmount" data-value="0.00">0.00</span>
+					</div>
+					</div>
+				
+					<div class="button_bank btnPermanent" id="level3PermanentBtn" data-case-open="0">
+					<div class="bankText"> PERMANENT BANK </div>
+					<div class="amountSpan">
+					<span class="bankAmount">$</span>
+					<span class="bankAmount totalAmount" data-value="0.00">0.00</span>
+					</div>
+					</div>			
+				</div>
+		
+		</div>
+	</div>	
+	<div class="container" id="screen10">
+		<div class="game-container thankyouscreen">
+			<div class="graytop">
+			<h3>Thanks for Playing!</h3>
+			We measured how comfortable you are with taking Risks.
+			</div>
+			<a href="#" class="nextgamelink">
+			CLICK TO BEGIN NEXT GAME!
+			</a>
+
+		</div>
+	</div>	
+	
+	<div class="container" id="screen11">
+		<div class="game-container">
+			
+			
+		</div>
+	</div>		
+	
+	
+	
+</div>	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>')</script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="jquery-ui/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/cases.js"></script>
+  </body>
+</html>

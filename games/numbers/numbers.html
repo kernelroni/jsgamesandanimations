@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+	
+    <title>Numbers</title>
+
+    <!-- Bootstrap core CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<link href="css/numbers.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+<div id="game">
+
+
+
+
+
+	
+	<div class="container" id="screen01">
+		<div class="game-container">		
+			<div class="game-container-inner">
+					<div class="labelname labeloverview">
+						<span class="blacktext"> 1/3 </span>
+					</div>
+				<br /><br /><br /><br /><br /><br /><br /><br />
+				<p class="blacktext"> <span class="orangetext strong">OVERVIEW:</span> 
+				You will be shown a random set of numbers, one at a time, to memorize.</p>	
+				
+
+				
+
+			</div>
+			
+			<div class="navigation-container">
+				<button class="navigation-next btnNextOverview" data-next-screen="02" value="Next"> NEXT </button>
+			</div>	
+		
+		</div>
+
+		
+	</div>	
+	
+	
+	<div class="container" id="screen02">
+		<div class="game-container">		
+			<div class="game-container-inner">
+					<div class="labelname labeloverview">
+						<span class="blacktext"> 2/3 </span>
+					</div>
+				<br /><br /><br /><br /><br /><br /><br />
+				<p class="blacktext"> <span class="orangetext strong">GOAL:</span> 
+				 Remember the numbers in the order they are shown,</p>	
+				<p class="blacktext">then enter the numbers in the same order.</p>	
+				
+
+				
+
+			</div>
+			
+			<div class="navigation-container">
+				<button class="navigation-back btnNextOverview" data-next-screen="01" value="Next"> BACK </button>
+				<button class="navigation-next btnNextOverview" data-next-screen="1" value="Next"> NEXT </button>
+			</div>	
+		
+		</div>
+
+		
+	</div>	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="container" id="screen1">
+		
+		
+		
+		<div class="game-container">
+					<div class="labelname labeloverview">
+						<span class="blacktext"> 3/3 </span>
+					</div>		
+			<div class="whitetop">
+			
+			<br /><br /><br /><br />
+				<p class="blacktext"> <span class="orangetext strong">GUIDELINES:</span> </p>
+				<p class="blacktext"> If you correctly enter a set of numbers, the set will increase by one.</p>
+				<br />
+				<p class="blacktext">If you incorrectly enter a set of numbers, it will decrease by one.</p>
+
+				<br />
+				<p class="blacktext">This will take about 1-2 minutes to complete.</p>
+				
+			</div>
+			<a href="#" class="nextgamelink clicktobegin">
+			CLICK TO BEGIN
+			</a>
+			<div class="navigation-container">
+				<button class="navigation-back btnNextOverview" data-next-screen="02" value="Next"> BACK </button>
+			</div>	
+		</div>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+    <div class="container" id="screen2">
+		<div class="game-container" id="bluepanel">
+				
+				<h3 id="numberboard"></h3>
+		
+		</div>
+	</div>	
+
+    <div class="container" id="screen3">
+	<div class="game-container noborder">
+		<div class="game-container-inner hasborder" id="lavel1">
+				
+				
+				<div class="lavelprogress">
+				<div class="lavelprogressbar" data-width="310"></div>
+				</div>
+		
+		<p class="blacktext"> Enter the numbers in the order they were shown. </p>
+		
+		<table class="number">
+		<tr>
+			<td class="numbertd numbertd0"> 
+			<input type="text" id="number0" data-index="0" class="form-control numberentered" maxlength="1" autocomplete="off" />
+			</td>
+		
+			<td class="numbertd numbertd1"> 
+			<input type="text" id="number1" data-index="1"  class="form-control numberentered" maxlength="1" autocomplete="off" />
+			</td>
+
+			<td class="numbertd numbertd2"> 
+			<input type="text" id="number2" data-index="2"  class="form-control numberentered" maxlength="1" autocomplete="off" />
+			</td>
+			
+			<td class="numbertd numbertd3"> 
+			<input type="text" id="number3" data-index="3"  class="form-control numberentered" maxlength="1" autocomplete="off" />
+			</td>			
+
+			<td class="numbertd numbertd4"> 
+			<input type="text" id="number4" data-index="4"  class="form-control numberentered" maxlength="1" autocomplete="off" />
+			</td>			
+
+			<td class="numbertd numbertd5"> 
+			<input type="text" id="number5" data-index="5"  class="form-control numberentered" maxlength="1" autocomplete="off" />
+			</td>			
+
+			<td class="numbertd numbertd6"> 
+			<input type="text" id="number6" data-index="6"  class="form-control numberentered" maxlength="1" autocomplete="off" />
+			</td>			
+
+			<td class="numbertd numbertd7"> 
+			<input type="text" id="number7" data-index="7"  class="form-control numberentered" maxlength="1" autocomplete="off" />
+			</td>			
+
+			<td class="numbertd numbertd8"> 
+			<input type="text" id="number8" data-index="8"  class="form-control numberentered" maxlength="1" autocomplete="off" />
+			</td>
+		
+		</tr>
+		
+		</table>
+		
+		
+		</div>
+			<div class="bottombutton">
+				<button class="btnNext" data-next-level="4"  value="Next"> NEXT </button>
+			</div>	
+		</div>
+	</div>
+	
+
+<!-- ------------------------------------------------------------------------------------------- -->
+
+	
+	<div class="container" id="screen6">
+		<div class="game-container thankyouscreen hasborder">
+			<div class="graytop">
+			<h3>Thanks for Playing!</h3>
+			We measured your ability to <span class="orangetext">remember information</span>.
+			</div>
+			<a href="#" class="nextgamelink">
+			CLICK TO BEGIN NEXT GAME!
+			</a>
+
+		</div>
+	</div>	
+	
+	
+	
+	
+	
+</div>	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>')</script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="jquery-ui/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/numbers.js"></script>
+  </body>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+	
+    <title>Memorymatch</title>
+
+    <!-- Bootstrap core CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<link href="css/memorymatch.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+<div id="game">
+
+    <div class="container" id="screen1">
+		<div class="game-container" id="lavelx">
+
+				<div class="labelname" >
+					<span> 1/4 </span>
+				</div>		
+			
+			<div class="whitetop hasborder">
+			<div class="content-wrap">
+			<p class="blacktext"> <span class="orangetext strong">OVERVIEW:</span> A random pattern of orange squares will temporarily show on your screen. </p>		
+			</div>
+		
+			<div class="squaresCollections overview"></div>
+
+			</div>
+
+			<div class="navigation-container">
+			<button data-next-screen="2" class="navigation-next nextbtn" href="#">NEXT</button>
+			</div>
+		</div>
+		
+	</div>
+	
+	<div class="container" id="screen2">
+		<div class="game-container" id="lavelx">
+
+				<div class="labelname" >
+					<span> 2/4 </span>
+				</div>		
+			
+			<div class="whitetop hasborder">
+			<div class="content-wrap">
+			<p class="blacktext"> <span class="orangetext strong">GOAL:</span> Memorize the patterns, and click those squares before time runs out! </p>		
+			</div>
+		
+			<div class="squaresCollections overview hideorrange"></div>
+
+			</div>
+
+<div class="navigation-container">			
+<button data-next-screen="1" class="navigation-back backbtn" href="#">BACK</button>
+<button data-next-screen="3" class="navigation-next nextbtn" href="#">NEXT</button>
+</div>
+		</div>
+		
+	</div>
+
+	
+<div class="container" id="screen3">
+		<div class="game-container" id="lavelx">
+				<div class="labelname" >
+					<span> 3/4 </span>
+				</div>		
+			
+			<div class="whitetop hasborder">
+			<div class="content-wrap">
+<p class="blacktext"> <span class="orangetext strong">GUIDELINES:</span> </p>		
+				
+<p class="blacktext">The orange squares will be shown to you for 3 seconds before each round.</p>
+<p class="blacktext">There are 7 rounds in total.</p>
+<br />
+<p class="blacktext">The number of squares, and the timer, will increase each level:</p>
+<br />
+
+<p class="blacktext">• <span class="orangetext strong">Level 1</span>  = 7 squares (5 second timer)</p>
+<p class="blacktext">• <span class="orangetext strong">Level 2</span>  = 8 squares (6 second timer)</p>
+<p class="blacktext">• <span class="orangetext strong">Level 3</span>  = 9 squares (7 second timer)</p>
+
+
+
+
+			</div>	
+			
+
+			
+			</div>
+
+<div class="navigation-container">				
+<button data-next-screen="2" class="navigation-back backbtn" href="#">BACK</button>
+<button data-next-screen="4" class="navigation-next nextbtn" href="#">NEXT</button>
+</div>
+		</div>
+		
+</div>		
+	
+	
+<div class="container" id="screen4">
+		<div class="game-container" id="lavelx">
+				<div class="labelname" >
+					<span> 4/4 </span>
+				</div>		
+			
+			<div class="whitetop hasborder">
+			<div class="content-wrap">
+<p class="blacktext"> <span class="orangetext strong">GUIDELINES:</span> </p>		
+				
+<p class="blacktext">If you complete two games in a level correctly, you will advance to the next level.</p>
+<p class="blacktext">If you get two games wrong in a row in a level, you will go back one level.</p>
+<br /><br />
+<p class="blacktext">This will take about 1 minute to complete.</p>
+
+
+
+
+
+			</div>	
+			
+
+			
+			</div>
+			<a href="#" class="nextgamelink clicktobegin">
+			CLICK TO BEGIN
+			</a>	
+<div class="navigation-container">			
+<button data-next-screen="3" class="navigation-back backbtn" href="#">Back</button>
+</div>
+		</div>
+		
+</div>		
+
+
+
+	<div class="container" id="screen5">
+		<div class="game-container" id="gameboard">
+
+				<div class="labelname" >
+					<span> <span class="currentround" id="currentround">1</span>/7 </span>
+				</div>		
+			
+			<div class="whitetop hasborder" id="memorymatchGameBoard">
+				<div class="lavelprogress">
+				<div class="lavelprogressbar" data-width="300"></div>
+				</div>	
+
+			<div class="boardIntructionLavel">
+			<div class="playinstruction" id="memorizeInfo">Memorize the orange squares.</div>	
+			<div class="playinstruction" id="clickInfo">Now click those orange squares.</div>
+			</div>
+			
+			<div class="squaresCollections" id="squaresGameBoard"></div>
+			<div class="success" id="successCheckMark">
+			<img src="images/success.png" />
+			</div>
+			</div>
+
+		
+		</div>
+		
+	</div>
+
+
+
+	
+	
+	<div class="container" id="screen6">
+		<div class="game-container thankyouscreen">
+			<div class="graytop">
+			<h3>Thanks for Playing!</h3>
+			We measured your <span class="orangetext">Working Memory </span> and <span class="orangetext">Sequencing skills.</span>
+			
+			</div>
+			<a href="#" class="nextgamelink">
+			CLICK TO BEGIN NEXT GAME!
+			</a>
+
+		</div>
+	</div>		
+	
+
+	
+	
+	
+</div>	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>')</script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="jquery-ui/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/memorymatch.js"></script>
+  </body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+	
+    <title>Planes</title>
+
+    <!-- Bootstrap core CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<link href="css/planes.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+<div id="game">
+
+
+	<div class="container" id="screen01">
+		<div class="game-container">
+
+					<div class="labelname labeloverview">
+						<span class="blacktext"> 1/3 </span>
+					</div>
+					
+			<div class="whitetop">
+			<br /><br /><br /><br />
+			<p class="blacktext"> <span class="orangetext strong">OVERVIEW:</span> 
+				 A fleet of airplanes will appear on your screen.</p>	
+			
+			
+			<br /><br />
+			
+			<br /><br />
+			<image src="images/first.png" class="imghorizontal" style="width:300px;" />
+			
+			</div>
+
+			
+
+		</div>
+			<div class="navigation-container">
+				<button class="navigation-back btnNextOverview" data-next-screen="01" value="Next"> BACK </button>
+				<button class="navigation-next btnNextOverview" data-next-screen="02" value="Next"> NEXT </button>
+			</div>			
+	</div>	
+	
+	<div class="container" id="screen02">
+		<div class="game-container">
+					<div class="labelname labeloverview">
+						<span class="blacktext"> 2/3 </span>
+					</div>		
+		
+			<div class="whitetop">
+			<br /><br /><br /><br />
+			<p class="blacktext"> <span class="orangetext strong">GOAL:</span> 
+				Record the <span class="strong">direction</span> of the <span class="strong">center airplane</span>, and ignore the others.</p>	
+			
+			
+			<br /><br />
+			
+			<br /><br />
+			<image src="images/second.png" class="imghorizontal" style="width:300px;" />
+			
+			</div>
+
+			
+
+		</div>
+			<div class="navigation-container">
+				<button class="navigation-back btnNextOverview" data-next-screen="01" value="Next"> BACK </button>
+				<button class="navigation-next btnNextOverview" data-next-screen="1" value="Next"> NEXT </button>
+			</div>			
+	</div>		
+	
+
+	<div class="container" id="screen1">
+		<div class="game-container">
+					<div class="labelname labeloverview">
+						<span class="blacktext"> 3/3 </span>
+					</div>		
+		
+			<div class="whitetop">
+			<br /><br />
+			<p class="blacktext"> <span class="orangetext strong">GUIDELINES:</span> </p>		
+			<p class="blacktext">Press the arrow key on your keyboard based on the direction of the center airplane. </p>
+			<p class="blacktext">Each set of airplanes will show for 3 seconds.</p>
+			
+			<p class="blacktext strong">You will have to enter your response within this time.</p>
+			<br /><br />
+			<p class="blacktext">This will take about 1 minute to complete.</p>
+			<br /><br />
+			
+			
+			</div>
+			<a href="#" class="nextgamelink clicktobegin">
+			CLICK TO BEGIN
+			</a>
+
+		</div>
+			<div class="navigation-container">
+				<button class="navigation-back btnNextOverview" data-next-screen="02" value="Next"> BACK </button>
+
+			</div>			
+	</div>	
+	
+    <div class="container" id="screen2">
+		<div class="game-container" id="bluepanel">
+				
+				
+				<image src="images/01.png" id="image-1" class="imgplane imghorizontal center" style="width:300px;" />
+				<image src="images/02.png" id="image-2" class="imgplane imgvertical left" style="height:330px; width:60px; margin-top:50px;" />
+				<image src="images/03.png" id="image-3" class="imgplane imghorizontal bottom" style="width:370px;" />
+				<image src="images/04.png" id="image-4" class="imgplane imgarrow right" style="margin-top:90px; width:150px;" />
+				<image src="images/05.png" id="image-5" class="imgplane imgvertical left" style="height:340px; width:60px; margin-top:40px;" />
+				<image src="images/06.png" id="image-6" class="imgplane imgsquare center" style="height:240px; margin:10% auto auto;" />
+				<image src="images/07.png" id="image-7" class="imgplane imgsquare center" style="margin-top:100px; width:200px; height:200px;" />
+				<image src="images/08.png" id="image-8" class="imgplane imgvertical right" style="height:340px; width:auto; margin-top:40px;" />
+				<image src="images/09.png" id="image-9" class="imgplane imghorizontal center" style="width:480px;"/>
+				<image src="images/10.png" id="image-10" class="imgplane imgarrow left" style="margin-top:90px"/>
+				<image src="images/11.png" id="image-11" class="imgplane imgarrow center" style="margin-top:100px; width:260px; height:200px;" />
+				<image src="images/12.png" id="image-12" class="imgplane imgsquare center" style="margin-top:100px; width:200px; height:200px;" />
+				<image src="images/13.png" id="image-13" class="imgplane imghorizontal bottom" style="width:400px; height:60px;" />
+				<image src="images/14.png" id="image-14" class="imgplane imgsquare left" style="margin-top:100px; width:200px; height:200px;" />
+				<image src="images/15.png" id="image-15" class="imgplane imgarrow right" style="margin-top:90px;" />
+				
+		
+		</div>
+		<div style="clear:both;"></div>
+	</div>	
+
+
+<!-- ------------------------------------------------------------------------------------------- -->
+
+	
+	<div class="container" id="screen3">
+		<div class="game-container thankyouscreen">
+			<div class="graytop">
+			<h3>Thanks for Playing!</h3>
+			We measured your ability to Learn from Feedback and Avoid Distractions.
+			</div>
+			<a href="#" class="nextgamelink">
+			CLICK TO BEGIN NEXT GAME!
+			</a>
+
+		</div>
+	</div>	
+	
+	
+	
+	
+	
+</div>	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>')</script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="jquery-ui/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/planes.js"></script>
+  </body>
+</html>

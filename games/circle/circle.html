@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+	
+    <title>Blue - Orange Game</title>
+
+    <!-- Bootstrap core CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<link href="css/circle.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+
+<div id="game">
+
+	<div class="container" id="screen01">
+		<div class="game-container">
+			<div class="whitetop" style="height:420px;">
+			<div class="labelname labeloverview">
+					<span> 1/3 </span>
+			</div>
+			<br /><br /><br /><br /><br /><br />
+			<p class="blacktext"> <span class="orangetext strong">OVERVIEW :</span> 
+				A <span class="bluetext">Blue</span> or <span class="orangetext">Orange</span> circle will appear on the center of your screen, one at a time.</p>	
+				
+				<table class="table">			
+				<tr class="trcenter">
+					<td>
+						<img id="imgBlue" src="images/games/blue.png" /> 
+						
+						
+					</td>
+					<td>
+						<img id="imgOrange" src="images/games/orange.png" />
+						
+					</td>
+				
+				</tr>
+				</table>				
+			</div>
+			
+			
+			
+			
+		</div>
+			<div class="navigation-container">
+
+				<button class="navigation-next btnNextOverview" data-next-screen="02" value="Next"> NEXT </button>
+			</div>			
+	</div>		
+	
+
+	<div class="container" id="screen02">
+		<div class="game-container">
+			<div class="whitetop" style="height:420px;">
+			<div class="labelname labeloverview">
+					<span> 2/3 </span>
+			</div>
+			<br /><br /><br /><br />
+			<p class="blacktext"> <span class="orangetext strong">GOAL:</span> 
+			Press the <span class="bluetext strong">‘F’</span> key on your keyboard when you see the <span class="bluetext strong">Blue</span> circle.
+			</p>
+			<br />
+			<p class="blacktext">
+			Ignore the <span class="orangetext strong">Orange</span> circle. Do not press any key when you see it.
+			</p>				
+				<table class="table">			
+				<tr class="trcenter">
+					<td>
+						<img id="imgBlue" src="images/games/blue.png" /> 					
+					</td>
+					<td>
+						<img id="imgOrange" src="images/games/orange.png" />			
+					</td>
+				
+				</tr>
+				</table>				
+			</div>
+			
+			
+			
+			
+		</div>
+			<div class="navigation-container">
+				<button class="navigation-back btnNextOverview" data-next-screen="01" value="Next"> BACK </button>
+				<button class="navigation-next btnNextOverview" data-next-screen="1" value="Next"> NEXT </button>
+			</div>			
+	</div>	
+	
+	
+	<div class="container" id="screen1">
+		<div class="game-container">
+			<div class="whitetop" style="height:420px;">
+			<div class="labelname labeloverview">
+					<span> 3/3 </span>
+			</div>			
+			<br /><br /><br /><br /><br />
+			<p class="blacktext"> <span class="orangetext strong">GUIDELINES:</span> </p>
+			<p class="blacktext">Each circle will be shown to you for 1-3 seconds.</p>
+			<br />
+			<p class="blacktext strong">You will only have a few seconds to decide to press the ‘F’ key or do nothing!</p>	
+			<br /><br />
+			<p class="blacktext">This will take about 1 minute to complete.</p>	
+						
+			</div>
+			<a href="#" class="nextgamelink clicktobegin" data-next-screen="2">
+			CLICK TO BEGIN
+			</a>
+
+		</div>
+			<div class="navigation-container">
+				<button class="navigation-back btnNextOverview" data-next-screen="02" value="Next"> BACK </button>
+				
+			</div>			
+	</div>
+	
+	
+	<div class="container" id="screen2">
+
+    </div> <!-- /container -->
+
+	<div class="container" id="screen3">
+		<div class="game-container">
+		
+		
+				<div class="lavelprogress">
+				<div class="lavelprogressbar" data-width="310"></div>
+				</div>
+				
+			<img class="singleImage" id="imgBlueSingle" src="images/games/blue.png" />
+			<img class="singleImage" id="imgOrangeSingle" src="images/games/orange.png" />
+		</div>
+	</div>
+
+	<div class="container" id="screen4">
+		<div class="game-container thankyouscreen">
+			<div class="graytop">
+			<h3>Thanks for Playing!</h3>
+			We measured your level of <span class="orangetext">Attention.</span>.
+			</div>
+			<a href="#" class="nextgamelink">
+			CLICK TO BEGIN NEXT GAME!
+			</a>
+
+		</div>
+	</div>	
+</div>	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>')</script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  
+	<script type="text/javascript" src="js/circle.js"></script>
+  </body>
+</html>

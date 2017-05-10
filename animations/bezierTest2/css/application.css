@@ -1,0 +1,19 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+#dx-canvas-container{
+border:1px solid black;
+margin:0px auto;
+height:700px;
+width:1000px;	
+	
+}
+
+#dcanvas{
+margin:0px auto;
+height:700px;
+width:1000px;
+	
+}

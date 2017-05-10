@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+	
+    <title>Entrust</title>
+
+    <!-- Bootstrap core CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<link href="css/entrust.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+<div id="game">
+
+
+	<div class="container" id="screen01">
+		<div class="game-container">
+			<div class="whitetop" style="height:420px;">
+			<div class="labelname labeloverview">
+					<span> 1/3 </span>
+			</div>
+			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			<p class="blacktext"> <span class="orangetext strong">OVERVIEW :</span> 
+				You will be working with a random Computer Player.</p>	
+			</div>
+			
+			
+		</div>
+			<div class="navigation-container">
+
+				<button class="navigation-next btnNextOverview" data-next-screen="02" value="Next"> NEXT </button>
+			</div>			
+	</div>		
+	
+
+	<div class="container" id="screen02">
+		<div class="game-container">
+			<div class="whitetop" style="height:420px;">
+			<div class="labelname labeloverview">
+					<span> 2/3 </span>
+			</div>			
+			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			<p class="blacktext"> <span class="orangetext strong">GOAL :</span> 
+				Follow the instructions provided to you throughout the game.</p>	
+			</div>
+			
+			
+		</div>
+			<div class="navigation-container">
+				<button class="navigation-back btnNextOverview" data-next-screen="01" value="Next"> BACK </button>
+				<button class="navigation-next btnNextOverview" data-next-screen="1" value="Next"> NEXT </button>
+			</div>			
+	</div>	
+	
+	
+	<div class="container" id="screen1">
+		<div class="game-container">
+			<div class="whitetop" style="height:420px;">
+			<div class="labelname labeloverview">
+					<span> 3/3 </span>
+			</div>			
+			<br /><br /><br /><br /><br /><br /><br />
+			<p class="blacktext"> <span class="orangetext strong">GUIDELINES:</span> </p>
+			<p class="blacktext">This will take about 1-2 minutes to complete.</p>	
+			</div>
+			<a href="#" class="nextgamelink clicktobegin" data-next-screen="2">
+			CLICK TO BEGIN
+			</a>
+
+		</div>
+			<div class="navigation-container">
+				<button class="navigation-back btnNextOverview" data-next-screen="02" value="Next"> BACK </button>
+				
+			</div>			
+	</div>	
+	
+	<div class="container" id="screen2">
+		<div class="game-container noborder">
+			<div class="whitetop hasborder">
+			<div class="instruction">
+			<br /><br />
+			<img class="piggybank" src="images/piggybank.png" />
+			<span class="strongboldorange">$<span class="youhavetotal">15</span></span>
+			<span class="mediumtext"> (This is the money in your <span class="strong"> piggy bank</span>.) </span>
+			</div>
+			<br /><br /><br />
+			<p class="mediumtext">You have the option to transfer all, some or none of your money to the Computer Player.</p>
+			<p class="mediumtext">However much you transfer will be tripled in the Computer Player’s account.</p>
+			</div>
+			<div class="navigation-container">
+				
+				<button class="navigation-next btnNextOverview" data-next-screen="3" value="Next"> NEXT </button>
+			</div>	
+
+		</div>
+	</div>	
+	
+	<div class="container" id="screen3">
+		<div class="game-container noborder">
+			<div class="whitetop hasborder">
+			<br /><br />
+			<div class="instruction">
+			<img class="women" src="images/woman.jpg" />
+			<span class="stronggray">Computer Player</span>
+			</div>
+			
+			<br /><br /><br /><br />
+			<p class="plaintext">This Player will have the option to give you back all, some or none of your money.</p>
+			<p class="plaintext">It is completely up to the Player to decide how much he/she wants to return to you.</p>
+			<br /><br />
+			<p class="strong">The money returned to you is what you get back in your piggy bank.</p>
+			
+			</div>
+			<div class="navigation-container">				
+				<button class="navigation-next btnNextOverview" data-next-screen="4" value="Next"> NEXT </button>
+			</div>	
+
+		</div>
+	</div>	
+	
+	
+	<div class="container" id="screen4">
+		<div class="game-container noborder">
+			<div class="whitetop hasborder">
+			<br /><br /><br />
+			<table class="whitetable">
+			<tr>
+				<td> 
+					<img class="piggybank" src="images/piggybank.png" />
+					<span class="strongboldorange">$<span class="youhavetotal">15</span></span>
+				</td>
+				<td> 
+				<img class="arrow" src="images/arrowrightgray.png" />
+				</td>
+				<td> 
+					<img class="women" src="images/woman.jpg" />
+								
+				</td>			
+			</tr>
+			</table>
+			<br />
+			<p class="plaintext">How much (if anything) would you like to give to the Computer Player?</p>
+			<p class="plaintext">You can transfer any amount in dollars or cents from $0 to $15</p>
+			<br />
+			<div class="transfersection">
+			<div class="input-group">
+				  <span class="input-group-addon">$</span>
+				  <input type="text" id="transferingamount" name="transferingamount" class="form-control">
+			 
+			</div>
+			<a href="#" class="transferbtn" data-next-screen="5"> TRANSFER </a>	
+			</div>
+			
+			</div>
+			<div class="navigation-container">
+				
+				<button class="navigation-next transferbtn" data-next-screen="5" value="Next"> NEXT </button>
+			</div>	
+
+		</div>
+	</div>		
+	
+	
+	
+	<div class="container" id="screen5">
+		<div class="game-container noborder">
+			<div class="whitetop hasborder">
+			<br /><br /><br />			
+			<table class="whitetable">
+			<tr>
+				<td> 
+					<img class="piggybank" src="images/piggybank.png" />
+					<span class="strongboldorange">$<span class="youhavenow">15</span></span>
+				</td>
+				<td> 
+				<div class="transferamountdiv"> $ <span class="transferamountlabel">3.00</span>  </div>
+				<img class="arrow" src="images/arrowrightgray.png" />
+				</td>
+				<td> 
+					<img class="women" src="images/woman.jpg" />
+			
+				</td>
+				<td>
+					<span class="strongboldblue">
+					 <br /> $ <span class="lisaamount">9</span>
+					</span>	
+				</td>
+				
+			</tr>
+			</table>
+			<br /><br />
+			<p class="mediumtext">You transferred  $<span class="transferamount transferamountlabel">3.00</span> to the Computer Player.</p>
+			
+			
+			
+			</div>
+			<div class="navigation-container">
+				
+				<button class="navigation-next btnNextOverview" data-next-screen="6" value="Next"> NEXT </button>
+			</div>	
+
+		</div>
+	</div>
+	
+	
+	<div class="container" id="screen6">
+		<div class="game-container noborder">
+			<div class="whitetop hasborder">
+			<br /><br /><br />		
+			<table class="whitetable">
+			<tr>
+				<td> 
+					<img class="piggybank" src="images/piggybank.png" />
+					<span class="strongboldorange">$<span class="yourtotal">15.60</span></span>
+				</td>
+				<td> 
+				<div class="transferamountdiv"> $ <span class="transferamountlabel lisasent">3.60</span>  </div>
+				<img class="arrow" src="images/arrowleftgray.png" />
+				</td>
+				<td> 
+					<img class="women" src="images/woman.jpg" />
+			
+				</td>
+				<td>
+					<span class="strongboldblue">
+					<br /> $ <span class="lisahas">5.40</span>
+					</span>	
+				</td>
+				
+			</tr>
+			</table>
+			<br /><br />
+			<p class="mediumtext">The Computer Player sent you $<span class="transferamount lisasent">3.60 </span> for you to keep in your piggy bank.</p>
+			
+			
+			
+			</div>
+			<div class="navigation-container">
+				
+				<button class="navigation-next btnNextOverview" data-next-screen="7" value="Next"> NEXT </button>
+			</div>	
+
+		</div>
+	</div>	
+	
+	
+	
+	
+	
+	
+	<div class="container" id="screen7">
+		<div class="game-container thankyouscreen">
+			<div class="whitetop hasborder">
+			
+			
+			<div class="whitecontent">
+			<br /><br />
+			<p class="mediumtext">
+			On a scale of 1-10 (1 being unfair and 10 being very fair) how would you grade <br />
+the Computer Player’s fairness of the money he/she gave you?
+			</p>
+			</div>
+			<br /><br />
+			<div class="radios">
+			
+			
+			<table class="radiostable">
+			<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+			<td>7</td>
+			<td>8</td>
+			<td>9</td>
+			</tr>
+			
+			<tr class="radiostr">
+			<td><input class="entrustradion" type="radio" name="entrust" value="1" autocomplete="off" /></td>
+			<td><input class="entrustradion" type="radio" name="entrust" value="2" autocomplete="off" /></td>
+			<td><input class="entrustradion" type="radio" name="entrust" value="3" autocomplete="off" /></td>
+			<td><input class="entrustradion" type="radio" name="entrust" value="4" autocomplete="off" /></td>
+			<td><input class="entrustradion" type="radio" name="entrust" value="5" autocomplete="off" /></td>
+			<td><input class="entrustradion" type="radio" name="entrust" value="6" autocomplete="off" /></td>
+			<td><input class="entrustradion" type="radio" name="entrust" value="7" autocomplete="off" /></td>
+			<td><input class="entrustradion" type="radio" name="entrust" value="8" autocomplete="off" /></td>
+			<td><input class="entrustradion" type="radio" name="entrust" value="9" autocomplete="off" /></td>
+			
+			</tr>
+			
+			</table>
+
+			</div>
+			
+			</div>
+
+			<div class="navigation-container">				
+				<button class="navigation-next btnNextOverview" data-next-screen="8" value="Next"> NEXT </button>
+			</div>	
+			
+		</div>
+	</div>		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+	<div class="container" id="screen8">
+		<div class="game-container thankyouscreen">
+			<div class="graytop">
+			<h3>Thanks for Playing!</h3>
+			We measured how trusting you are with other people.
+			</div>
+			<a href="#" class="nextgamelink">
+			CLICK TO BEGIN NEXT GAME!
+			</a>
+
+		</div>
+	</div>	
+	
+	
+	
+	
+	
+</div>	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>')</script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="jquery-ui/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/entrust.js"></script>
+  </body>
+</html>

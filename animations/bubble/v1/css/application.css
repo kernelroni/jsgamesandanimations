@@ -1,0 +1,16 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background:#333333;
+}
+
+canvas{
+background:black;
+margin:0px auto;
+border:1px solid white;
+overflow:hidden;
+}
+
+#bubblecanvas{
+text-align:center;	
+}

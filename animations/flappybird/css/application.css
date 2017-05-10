@@ -1,0 +1,16 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background:#333333;
+}
+
+canvas{
+background:url("../image/back.png") bottom repeat-x;
+margin:0px auto;
+border:5px solid black;	
+
+}
+
+#birdcanvas{
+text-align:center;	
+}

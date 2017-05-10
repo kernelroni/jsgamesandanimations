@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+	
+    <title>Grit</title>
+
+    <!-- Bootstrap core CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<link href="css/grit.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+
+<div id="game">
+
+	<div class="container" id="screen01">
+		<div class="game-container nopadding">
+		
+					<div class="labelname labeloverview">
+						<span class="blacktext"> 1/3 </span>
+					</div>			
+			<div class="whitetop">
+			
+			<div class="guidelinearea">
+			<p class="blacktext"> <span class="orangetext strong">OVERVIEW:</span> There are a total of 8 questions for you to answer.</p>	
+			
+			</div>
+		
+		
+			
+			
+			
+			</div>
+
+			
+
+		</div>
+			<div class="navigation-container">				
+				<button class="navigation-next btnNextOverview" data-next-screen="02" value="Next"> NEXT </button>
+			</div>			
+	</div>	
+	
+	<div class="container" id="screen02">
+		<div class="game-container nopadding">
+
+					<div class="labelname labeloverview">
+						<span class="blacktext"> 2/3 </span>
+					</div>			
+		
+			<div class="whitetop">
+			
+			<div class="guidelinearea">
+			<p class="blacktext"> <span class="orangetext strong">GOAL:</span>  
+			Answer each question as honestly as you can. </p>
+			<br /><br />
+			<p class="blacktext strong"> Remember - there are no right or wrong answers! </p>
+			</div>
+			<br /><br />
+			
+			
+			
+			</div>
+
+			
+
+		</div>
+			<div class="navigation-container">
+				<button class="navigation-back btnNextOverview" data-next-screen="01" value="Next"> BACK </button>
+				<button class="navigation-next btnNextOverview" data-next-screen="1" value="Next"> NEXT </button>
+			</div>			
+	</div>	
+
+
+    <div class="container" id="screen1">
+		<div class="game-container nopadding">
+			
+					<div class="labelname labeloverview">
+						<span class="blacktext"> 3/3 </span>
+					</div>				
+			<div class="guidelinearea">
+			<p class="blacktext"> <span class="orangetext strong">GUIDELINES:</span> </p>
+			<p class="blacktext"> This will take about 2-3 minutes to complete </p>
+			</div>
+			
+			<br /><br />
+		
+
+			<a href="#" class="nextgamelink clicktobegin">
+			CLICK TO BEGIN
+			</a>			
+		</div>
+		
+			<div class="navigation-container">
+				<button class="navigation-back btnNextOverview" data-next-screen="02" value="Next"> BACK </button>
+				
+			</div>			
+	</div>
+	
+	
+    <div class="container" id="screen2">
+		<div class="game-container">
+		
+			<table class="questionsanswers">
+
+			<tr class="rowanswers">
+				<td id="question1">
+				<div class="question">
+				<span class="qno"> 1. </span>New ideas and projects sometimes distract me from previous ones.
+				</div>
+					<ul class="questionlist">
+					
+						<li> 
+						<label>
+							<input type="radio" name="question1" value="Very much like me" />
+							Very much like me
+						</label>
+						</li>
+						
+						<li>
+						<label>
+							<input type="radio" name="question1" value="Mostly like me" />
+							Mostly like me
+						</label>
+						</li>					
+						<li> 
+						<label>
+							<input type="radio" name="question1" value="Somewhat like me" />
+							Somewhat like me
+						</label>
+						</li>	
+						<li>
+						<label>
+							<input type="radio" name="question1" value="Not much like me" />
+							Not much like me
+						</label>
+						</li>
+
+						<li> 
+						<label>
+							<input type="radio" name="question1" value="Not like me at all" />
+							Not like me at all
+						</label>
+						</li>
+					
+					</ul>				
+				</td>
+				<td id="question2">
+				
+				<div class="question">
+				<span class="qno"> 2. </span>Setbacks don’t discourage me.	
+				</div>
+				
+					<ul class="questionlist">
+					
+						<li> 
+						<label>
+							<input type="radio" name="question2" value="Very much like me" />
+							Very much like me
+						</label>
+						</li>
+						
+						<li>
+						<label>
+							<input type="radio" name="question2" value="Mostly like me" />
+							Mostly like me
+						</label>
+						</li>					
+						<li> 
+						<label>
+							<input type="radio" name="question2" value="Somewhat like me" />
+							Somewhat like me
+						</label>
+						</li>	
+						<li>
+						<label>
+							<input type="radio" name="question2" value="Not much like me" />
+							Not much like me
+						</label>
+						</li>
+
+						<li> 
+						<label>
+							<input type="radio" name="question2" value="Not like me at all" />
+							Not like me at all
+						</label>
+						</li>
+					
+					</ul>	
+				</td>
+			
+			
+			</tr>
+			</table>
+			
+			<div class="bottombutton">
+			<button class="navigation-next btnNext" data-questionids="1,2" data-next-screen="3" value="Next"> Next </button>
+			</div>
+					
+		</div>
+	</div>	
+	
+<!-- -------------------------------------------------------------------------------- -->
+<div class="container" id="screen3">
+		<div class="game-container">
+			<table class="questionsanswers">
+
+			<tr class="rowanswers">
+				<td id="question3">
+				<div class="question">
+				<span class="qno"> 3. </span>I have been obsessed with a certain idea or project for a short time but later lost interest.
+				</div>
+					<ul class="questionlist">
+					
+						<li> 
+						<label>
+							<input type="radio" name="question3" value="Very much like me" />
+							Very much like me
+						</label>
+						</li>
+						
+						<li>
+						<label>
+							<input type="radio" name="question3" value="Mostly like me" />
+							Mostly like me
+						</label>
+						</li>					
+						<li> 
+						<label>
+							<input type="radio" name="question3" value="Somewhat like me" />
+							Somewhat like me
+						</label>
+						</li>	
+						<li>
+						<label>
+							<input type="radio" name="question3" value="Not much like me" />
+							Not much like me
+						</label>
+						</li>
+
+						<li> 
+						<label>
+							<input type="radio" name="question3" value="Not like me at all" />
+							Not like me at all
+						</label>
+						</li>
+					
+					</ul>				
+				</td>
+				<td id="question4">
+				
+				<div class="question">
+				<span class="qno"> 4. </span>I am a hard worker.
+				</div>
+				
+					<ul class="questionlist">
+					
+						<li> 
+						<label>
+							<input type="radio" name="question4" value="Very much like me" />
+							Very much like me
+						</label>
+						</li>
+						
+						<li>
+						<label>
+							<input type="radio" name="question4" value="Mostly like me" />
+							Mostly like me
+						</label>
+						</li>					
+						<li> 
+						<label>
+							<input type="radio" name="question4" value="Somewhat like me" />
+							Somewhat like me
+						</label>
+						</li>	
+						<li>
+						<label>
+							<input type="radio" name="question4" value="Not much like me" />
+							Not much like me
+						</label>
+						</li>
+
+						<li> 
+						<label>
+							<input type="radio" name="question4" value="Not like me at all" />
+							Not like me at all
+						</label>
+						</li>
+					
+					</ul>	
+				</td>
+			
+			
+			</tr>
+			</table>
+			
+			<div class="bottombutton">
+			<button class="navigation-next btnNext" data-questionids="3,4" data-next-screen="4" value="Next"> Next </button>
+			</div>
+					
+		</div>
+	</div>	
+
+	
+<!-- -------------------------------------------------------------------------------- -->
+<div class="container" id="screen4">
+		<div class="game-container">
+			<table class="questionsanswers">
+
+			<tr class="rowanswers">
+				<td id="question5">
+				<div class="question">
+				<span class="qno"> 5. </span>I often set a goal but later choose to pursue a different one.
+				</div>
+					<ul class="questionlist">
+					
+						<li> 
+						<label>
+							<input type="radio" name="question5" value="Very much like me" />
+							Very much like me
+						</label>
+						</li>
+						
+						<li>
+						<label>
+							<input type="radio" name="question5" value="Mostly like me" />
+							Mostly like me
+						</label>
+						</li>					
+						<li> 
+						<label>
+							<input type="radio" name="question5" value="Somewhat like me" />
+							Somewhat like me
+						</label>
+						</li>	
+						<li>
+						<label>
+							<input type="radio" name="question5" value="Not much like me" />
+							Not much like me
+						</label>
+						</li>
+
+						<li> 
+						<label>
+							<input type="radio" name="question5" value="Not like me at all" />
+							Not like me at all
+						</label>
+						</li>
+					
+					</ul>				
+				</td>
+				<td id="question6">
+				
+				<div class="question">
+				<span class="qno"> 6. </span>I have difficulty maintaining my focus on projects that take more than a few months to complete.
+				</div>
+				
+					<ul class="questionlist">
+					
+						<li> 
+						<label>
+							<input type="radio" name="question6" value="Very much like me" />
+							Very much like me
+						</label>
+						</li>
+						
+						<li>
+						<label>
+							<input type="radio" name="question6" value="Mostly like me" />
+							Mostly like me
+						</label>
+						</li>					
+						<li> 
+						<label>
+							<input type="radio" name="question6" value="Somewhat like me" />
+							Somewhat like me
+						</label>
+						</li>	
+						<li>
+						<label>
+							<input type="radio" name="question6" value="Not much like me" />
+							Not much like me
+						</label>
+						</li>
+
+						<li> 
+						<label>
+							<input type="radio" name="question6" value="Not like me at all" />
+							Not like me at all
+						</label>
+						</li>
+					
+					</ul>	
+				</td>
+			
+			
+			</tr>
+			</table>
+			
+			<div class="bottombutton">
+			<button class="navigation-next btnNext" data-questionids="5,6" data-next-screen="5" value="Next"> Next </button>
+			</div>
+					
+		</div>
+	</div>	
+
+	
+<!-- -------------------------------------------------------------------------------- -->
+<div class="container" id="screen5">
+		<div class="game-container">
+			<table class="questionsanswers">
+
+			<tr class="rowanswers">
+				<td id="question7">
+				<div class="question">
+				<span class="qno"> 7. </span>I finish whatever I begin.
+				</div>
+					<ul class="questionlist">
+					
+						<li> 
+						<label>
+							<input type="radio" name="question7" value="Very much like me" />
+							Very much like me
+						</label>
+						</li>
+						
+						<li>
+						<label>
+							<input type="radio" name="question7" value="Mostly like me" />
+							Mostly like me
+						</label>
+						</li>					
+						<li> 
+						<label>
+							<input type="radio" name="question7" value="Somewhat like me" />
+							Somewhat like me
+						</label>
+						</li>	
+						<li>
+						<label>
+							<input type="radio" name="question7" value="Not much like me" />
+							Not much like me
+						</label>
+						</li>
+
+						<li> 
+						<label>
+							<input type="radio" name="question7" value="Not like me at all" />
+							Not like me at all
+						</label>
+						</li>
+					
+					</ul>				
+				</td>
+				<td id="question8">
+				
+				<div class="question">
+				<span class="qno"> 8. </span>I am diligent.
+				</div>
+				
+					<ul class="questionlist">
+					
+						<li> 
+						<label>
+							<input type="radio" name="question8" value="Very much like me" />
+							Very much like me
+						</label>
+						</li>
+						
+						<li>
+						<label>
+							<input type="radio" name="question8" value="Mostly like me" />
+							Mostly like me
+						</label>
+						</li>					
+						<li> 
+						<label>
+							<input type="radio" name="question8" value="Somewhat like me" />
+							Somewhat like me
+						</label>
+						</li>	
+						<li>
+						<label>
+							<input type="radio" name="question8" value="Not much like me" />
+							Not much like me
+						</label>
+						</li>
+
+						<li> 
+						<label>
+							<input type="radio" name="question8" value="Not like me at all" />
+							Not like me at all
+						</label>
+						</li>
+					
+					</ul>	
+				</td>
+			
+			
+			</tr>
+			</table>
+			
+			<div class="bottombutton">
+			<button class="navigation-next btnNext" data-questionids="7,8" data-next-screen="6" value="Next"> Next </button>
+			</div>
+					
+		</div>
+</div>	
+
+
+<div class="container" id="screen6">
+	<div class="game-container thankyouscreen">
+		<div class="graytop">
+		<h3>Thanks for Playing!</h3>
+		We measured how Gritty you are.
+		</div>
+		<a href="#" class="nextgamelink">
+		CLICK TO BEGIN NEXT GAME!
+		</a>
+
+	</div>
+</div>
+	
+</div>	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>')</script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  
+	<script type="text/javascript" src="js/grit.js"></script>
+  </body>
+</html>

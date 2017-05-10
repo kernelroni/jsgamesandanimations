@@ -1,0 +1,397 @@
+.game-container{
+    width: 750px;
+    height: 500px;
+    margin: auto;
+    justify-content:center;
+    border:2px solid gray;
+	margin:0px auto;
+	text-align:center;
+	position:relative;
+}
+
+.noborder{
+border:none;
+}
+.hasborder{
+border:2px solid gray;
+}
+
+.game-container .gameboard{
+margin:0px auto;
+background:#2EC1F1;
+margin-top:10px;
+
+}
+.game-container .gameboard tr td{
+padding:2px;
+}
+
+table.gameboard tr td img{
+width:100px;
+height:100px;
+}
+
+div.lavelprogress{
+height:12px;
+border:1px solid black;
+width:310px;
+margin:0px auto;
+margin-top:20px;
+}
+
+div.lavelprogressbar{
+background:#F89A3B;
+height:10px;
+}
+
+
+div.success {
+  display: none;
+  height: 320px;
+  left: 217px;
+  position: absolute;
+  top: 0;
+  width: 310px;
+}
+
+div.success img{
+margin-top:165px;
+}
+
+div.labelname span{
+color:#F89A3B;
+font-weight:bold;
+float:right;
+padding:5px;
+font-size:18px;
+}
+
+
+
+div.thankyouscreen{
+padding:0px;
+border:none;
+}
+
+div.tutorialdemotxt {
+  background: #999999 none repeat scroll 0 0;
+  border-top: 1px solid black;
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 47px;
+  padding: 10px;
+  position: relative;
+}
+
+a.replaytxt {
+  background: rgba(0, 0, 0, 0) url("../images/replay.png") no-repeat scroll left center;
+  color: #000000;
+  display: inline-block;
+  line-height: 65px;
+  padding-left: 60px;
+}
+
+div.whitetop{
+background:#FFFFFF;
+color:#000000;
+height:450px;
+}
+
+div.whitetopborder{
+background:#FFFFFF;
+color:#000000;
+padding-top:100px;
+height:370px;
+font-size:18px;
+border:1px solid #000000;
+}
+
+div.graytop{
+background:#999999;
+color:#FFFFFF;
+padding-top:100px;
+height:370px;
+font-size:18px;
+}
+
+div.graytop h3{
+margin-bottom:30px;
+}
+
+a.nextgamelink{
+display:block;
+line-height:76px;
+background:#F89A3B;
+border:1px solid black;
+text-decoration:none;
+color:#FFFFFF;
+font-size:18px;
+}
+
+a.nextbtn{
+display:inline-block;
+background:#F89A3B;
+border:1px solid black;
+text-decoration:none;
+color:#FFFFFF;
+font-size:16px;
+font-weight:bold;
+float:right;
+padding:3px;
+margin:5px;
+border-radius:5px;
+padding-left:10px;
+padding-right:10px;
+}
+
+a.finishbtn{
+display:inline-block;
+background:#F89A3B;
+border:1px solid black;
+text-decoration:none;
+color:#FFFFFF;
+font-size:16px;
+font-weight:bold;
+float:right;
+padding:3px;
+margin:5px;
+border-radius:5px;
+padding-left:10px;
+padding-right:10px;
+}
+
+a.transferbtn{
+display:inline-block;
+background:#F89A3B;
+border:1px solid black;
+text-decoration:none;
+color:#FFFFFF;
+font-size:16px;
+font-weight:bold;
+float:right;
+padding:5px;
+margin-top:5px;
+padding-left:10px;
+padding-right:10px;
+width:100%;
+}
+
+.bluepanel{
+background:#2ec1f1;
+}
+
+
+div.container{
+display:none;
+}
+
+div#screen01{
+display:block;
+}
+
+
+.piggybank{
+width:100px;
+}
+.women{
+width:66px;
+}
+.strongboldorange{
+font-size:25px;
+font-weight:bold;
+color:#F89A3B;
+padding-right:20px;
+}
+
+.transferamountdiv {
+  color: #aaaaaa;
+  font-size: 25px;
+}
+
+.strongboldblue {
+  color: #aaaaaa;
+  font-size: 25px;
+  line-height: 0;
+  padding-left: 20px;
+}
+
+.stronggray{
+font-size:30px;
+color:#AAAAAA;
+padding-left:20px;
+}
+.strongbold{
+font-size:18px;
+font-weight:bold;
+}
+
+
+.arrow{
+width:200px;
+}
+
+.whitetable tr td{
+padding:10px;
+}
+
+.whitetable{
+margin:0px auto;
+}
+
+
+
+.transfersection{
+width:200px;
+margin:0px auto;
+}
+
+.transfersection input{
+text-align:center;
+}
+div.radios{
+width:500px;
+margin:0px auto;
+padding-top:20px;
+}
+table.radiostable{
+width:100%;
+background:#FFFFFF;
+}
+table.radiostable tr td{
+padding:10px;
+border:1px solid #CCCCCC;
+}
+
+.whitecontent{
+padding-top:30px;
+}
+
+.error {
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+
+.colorred {
+  color: red;
+  display: none;
+  float: left;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.redborder{
+border:2px solid red;
+}
+
+.plaintext{
+font-weight:normal;
+font-size:16px;
+}
+
+
+.strong{
+font-weight:bold;
+}
+
+.orangetext{
+color:#f89a3b;
+}
+
+.navigation-container {
+  margin: 20px auto;
+  width: 750px;
+}
+
+
+.mediumtext{
+font-size:16px;
+}
+.navigation-next
+{
+  border-radius:15px;
+  text-align: center;
+  float: right;
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  font-weight:bold;
+  border:1px solid black;
+  background-color: #F79D48;
+  color: white;
+}
+.navigation-back
+{
+  border-radius:15px;
+  text-align: center;
+  float: left;
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  font-weight:bold;
+  border:2px solid #F89A3B;
+  color: #F89A3B;
+  background-color: white;
+}
+
+
+.blacktext{
+color:#000000 !important;
+}
+
+
+.whitetext{
+color:#FFFFFF !important;
+}
+
+span.boldorange{
+color:#F89A3B;
+font-weight:bold;
+}
+
+a.clicktobegin {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: #2ec1f1 none repeat scroll 0 0;
+  border-color: black -moz-use-text-color -moz-use-text-color;
+  border-image: none;
+  border-style: solid none none;
+  border-width: 1px medium medium;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+div.labeloverview{
+position:absolute;
+right:0px;
+}
+div.labeloverview span {
+  color: #000000;
+  font-weight: normal;
+  padding: 30px;
+}
+
+.transfersection span{
+font-size:25px;
+border-radius:0px;
+border:1px solid #000000;
+background:#FFFFFF;
+}
+
+.transfersection input {
+  border-radius: 0;
+  font-size: 25px;
+  height: 39px;
+  text-align: center;
+  border:1px solid #000000;
+  border-left:0px;
+}
+
+.transfersection input:focus {
+  border-color: #000000;
+  box-shadow: none;
+  outline: 0 none;
+}

@@ -1,0 +1,353 @@
+.game-container{
+    width: 750px;
+    height: 480px;
+    margin: auto;
+    justify-content:center;
+	margin:0px auto;
+	text-align:center;
+	position:relative;
+}
+
+.gamewrapper{
+margin-top:100px;
+}
+
+.game-container .equationboard{
+
+margin:0px auto;
+width:400px;
+margin-top:50px;
+}
+
+
+div.whitetop {
+  background: #ffffff none repeat scroll 0 0;
+  color: #000000;
+  height: 480px;
+  padding-top: 30px;
+}
+
+div#gameboard div.whitetop{
+  background:#2EC1F1;
+}
+
+
+div.lavelprogress{
+height:12px;
+border:1px solid black;
+width:300px;
+margin:0px auto;
+margin-top:20px;
+margin-bottom:50px;
+}
+
+div.lavelprogressbar{
+background:#F89A3B;
+height:10px;
+}
+
+
+div.success {
+  display: none;
+  margin-top: 65px;
+  position: relative;
+}
+
+div.success img{
+margin:0px auto;
+}
+
+div.labelname span{
+color:#53585F;
+float:right;
+padding:20px;
+font-size:16px;
+}
+
+#screen5 div.labelname span{
+color:#FFFFFF;
+}
+
+div.labelname span.currentround{
+float:none;
+padding:0px;
+margin:0px;
+}
+
+
+div.thankyouscreen{
+padding:0px;
+border:none;
+}
+
+
+a.replaytxt {
+  background: rgba(0, 0, 0, 0) url("../images/replay.png") no-repeat scroll left center;
+  color: #000000;
+  display: inline-block;
+  line-height: 65px;
+  padding-left: 60px;
+}
+
+div.graytop{
+background:#999999;
+color:#FFFFFF;
+padding-top:100px;
+height:370px;
+font-size:18px;
+}
+
+div.graytop h3{
+margin-bottom:30px;
+}
+
+a.nextgamelink{
+display:block;
+line-height:78px;
+background:#F89A3B;
+border:1px solid black;
+text-decoration:none;
+color:#FFFFFF;
+font-size:18px;
+position:absolute;
+border-top:none;
+width:750px;
+bottom:0px;
+border-top:1px solid black;
+}
+
+#screen6 a.nextgamelink{
+border:1px solid black;
+}
+
+a.clicktobegin{
+background:#2ec1f1;
+}
+
+div.visibilityhidden{
+visibility:hidden;
+}
+
+div.container{
+display:none;
+}
+
+
+.noborder{
+border:none;
+}
+.hasborder{
+border:2px solid gray;
+}
+.strong{
+font-weight:bold;
+}
+.blacktext{
+color:#53585F;
+font-size:16px;
+}
+.orangetext{
+color:#f89a3b;
+}
+
+.greentext{
+color:#00AA00;
+}
+
+
+
+a.nextbtn {
+  background: #f89a3b none repeat scroll 0 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
+  float: right;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 3px 10px;
+  text-decoration: none;
+}
+
+a.backbtn {
+  background: #FFFFFF none repeat scroll 0 0;
+  border: 1px solid #f89a3b;
+  border-radius: 5px;
+  color: #f89a3b;
+  display: inline-block;
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 3px 10px;
+  text-decoration: none;
+}
+
+
+
+.hasborder {
+  border: 1px solid black;
+}
+
+.content-wrap{
+margin-top:20px;
+margin-bottom:20px;
+}
+
+
+div.labelname{
+position:absolute;
+right:0px;
+top:0px;
+}
+
+#screen5 div.labelname {
+  right: 35px;
+  top: 25px;
+}
+
+
+.optonscards{
+width:400px;
+height:250px;
+margin:0px auto;
+position:relative;
+}
+
+.cardLeft{
+width:150px;
+float:left;
+width:150px;
+height:220px;
+border:1px solid black;
+}
+
+.cardRight{
+width:150px;
+float:right;
+width:150px;
+height:220px;
+border:1px solid black;
+}
+
+.cardTop{
+height:170px;
+border:1px solid black;
+background:#f89a3b;
+}
+
+.nottaken .cardTop{
+background:#999999;
+}
+
+
+
+.cardBottom{
+height:48px;
+border:1px solid black;
+line-height:48px;
+color:#666666;
+background:white;
+}
+
+
+.cardLeft.taken{
+height:252px;
+border:2px solid green;
+}
+
+.cardRight.taken{
+height:252px;
+border:2px solid green;
+}
+
+.cardLeft.taken div.success{
+display:block;
+}
+
+.cardRight.taken div.success{
+display:block;
+}
+
+
+.taken .cardTop{
+border:2px solid green;
+}
+
+.cardLeft.notlucky{
+height:252px;
+border:2px solid red;
+}
+
+.cardRight.notlucky{
+height:252px;
+border:2px solid red;
+}
+
+.notlucky .cardTop{
+border:2px solid red;
+}
+
+.notlucky .cardBottom{
+border:2px solid red;
+}
+
+
+
+
+
+
+
+.instruction{
+color:#666666;
+padding:5px;
+margin-bottom:15px;
+}
+
+
+.navigation-container {
+  margin: 20px auto;
+  width: 750px;
+}
+
+.navigation-next
+{
+  border-radius:15px;
+  text-align: center;
+  float: right;
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  font-weight:bold;
+  border:1px solid black;
+  background-color: #F79D48;
+  color: white;
+}
+.navigation-back
+{
+  border-radius:15px;
+  text-align: center;
+  float: left;
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  font-weight:bold;
+  border:2px solid #F89A3B;
+  color: #F89A3B;
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+	
+    <title>Equations</title>
+
+    <!-- Bootstrap core CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<link href="css/equations.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+<div id="game">
+
+    <div class="container" id="screen1">
+		<div class="game-container" id="lavelx">
+
+				<div class="labelname" >
+					<span style="color:#CCCCCC;"> 1/3 </span>
+				</div>		
+			
+			<div class="whitetop hasborder">
+			<div class="content-wrap">
+			<p class="blacktext"> <span class="orangetext strong">OVERVIEW:</span> An equation will appear on your screen one round at a time </p>		
+			</div>
+			<table class="equationboard">
+			
+			<tr>
+				<td colspan="3">
+				
+				<div class="equationlineblue">
+				3 + 2 = 
+				</div>
+				
+				</td>				
+			</tr>
+			
+			<tr>
+				<td>
+					<div class="answeroption">8</div>
+				</td>
+
+				<td>				
+					<div class="answeroption">5</div>
+				</td>
+
+				<td>				
+					<div class="answeroption">6</div>
+				</td>				
+			</tr>	
+		
+			</table>
+
+			</div>
+
+			<div class="navigation-container">	
+			<button data-next-screen="2" class="navigation-next nextbtn" href="#">NEXT</button>
+			</div>
+		</div>
+		
+	</div>
+	
+	
+	
+<div class="container" id="screen2">
+		<div class="game-container" id="lavelx">
+				<div class="labelname" >
+					<span style="color:#CCCCCC;"> 2/3 </span>
+				</div>		
+			
+			<div class="whitetop hasborder">
+			<div class="content-wrap">
+			<p class="blacktext"> <span class="orangetext strong">GOAL:</span>  Click the card with the <span class="greentext">correct</span> solution before time runs out</p>		
+			</div>
+			<table class="equationboard">			
+			<tr>
+				<td colspan="3">
+				
+				<div class="equationlineblue">
+				3 + 2 = 
+				</div>
+				
+				</td>				
+			</tr>			
+			<tr>
+				<td>
+					<div class="answeroption">8</div>
+				</td>
+
+				<td>				
+					<div class="answeroption correct">5</div>
+				</td>
+
+				<td>				
+					<div class="answeroption">6</div>
+				</td>				
+			</tr>		
+			</table>
+
+			</div>
+		<div class="navigation-container">	
+		<button data-next-screen="1" class="navigation-back backbtn" href="#">BACK</button>
+		<button data-next-screen="3" class="navigation-next nextbtn" href="#">NEXT</button>
+		</div>
+		</div>
+</div>	
+	
+	
+	
+	
+<div class="container" id="screen3">
+		<div class="game-container" id="lavelx">
+				<div class="labelname" >
+					<span style="color:#CCCCCC;"> 3/3 </span>
+				</div>		
+			
+			<div class="whitetop hasborder">
+			<div class="content-wrap">
+<p class="blacktext"> <span class="orangetext strong">GUIDELINES:</span> </p>		
+				
+<p class="blacktext">There are 16 rounds of equations in total:</p>
+
+<p class="blacktext">• <span class="orangetext strong">First 8 rounds:</span> Addition and Subtraction (5 seconds to solve)</p>
+<p class="blacktext">• <span class="orangetext strong">Last 8 rounds:</span> Multiplication and Division (7 seconds to solve)</p>
+<br />
+<p class="blacktext">This will take about 1 minute to complete.</p>
+			</div>	
+			
+
+			
+			</div>
+			
+			<a href="#" class="nextgamelink clicktobegin">
+			CLICK TO BEGIN
+			</a>
+<div class="navigation-container">			
+<button data-next-screen="2" class="navigation-back backbtn" href="#">Back</button>
+</div>
+		</div>
+		
+</div>		
+	
+	
+	<div class="container" id="screen4">
+		<div class="game-container" id="gameboard">
+
+				<div class="labelname" >
+					<span style="color:#FFFFFF;"> <span id="currentLevel" style="clear:both;float:none;">1</span>/16 </span>
+				</div>		
+		
+			<div class="whitetop hasborder">
+				<div class="lavelprogress">
+				<div class="lavelprogressbar" data-width="300"></div>
+				</div>				
+			<div class="content-wrap">
+			&nbsp;			
+			</div>
+			<table class="equationboard">
+			
+			<tr>
+				<td colspan="3">
+				
+				<div id="questionequation" class="equationline">
+				
+				</div>
+				
+				</td>				
+			</tr>
+			
+			<tr>
+				<td>
+					<div id="answerx" class="answeroption" data-value="0"></div>
+				</td>
+
+				<td>				
+					<div id="answery" class="answeroption" data-value="0"></div>
+				</td>
+
+				<td>				
+					<div id="answerz" class="answeroption" data-value="0"></div>
+				</td>				
+			</tr>	
+		
+			</table>
+
+			</div>
+
+		</div>
+		
+	</div>	
+	
+	<div class="container" id="screen6">
+		<div class="game-container thankyouscreen">
+			<div class="graytop">
+			<h3>Thanks for Playing!</h3>
+			We measured your <span class="orangetext strong">Planning, Problem Solving </span> and <span class="orangetext strong">Quantitative skills.</span>
+			</div>
+			<a href="#" class="nextgamelink">
+			CLICK TO BEGIN NEXT GAME!
+			</a>
+
+		</div>
+	</div>		
+	
+
+	
+	
+	
+</div>	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>')</script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="jquery-ui/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/equations.js"></script>
+  </body>
+</html>

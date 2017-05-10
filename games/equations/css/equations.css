@@ -1,0 +1,301 @@
+.game-container{
+    width: 750px;
+    height: 450px;
+    margin: auto;
+    justify-content:center;
+	margin:0px auto;
+	text-align:center;
+	position:relative;
+}
+
+.gamewrapper{
+margin-top:100px;
+}
+
+.game-container .equationboard{
+
+margin:0px auto;
+width:400px;
+/*background:#2EC1F1;*/
+margin-top:50px;
+}
+
+
+
+.game-container .equationboard tr td{
+padding:5px;
+}
+
+.game-container .equationboard tr td .equationline{
+height:50px;
+background:#f89a3b;
+border-radius:5px;
+border:2px solid #666666;
+line-height:50px;
+color:#FFFFFF;
+font-size:18px;
+font-weight:bold;
+}
+
+.game-container .equationboard tr td .equationlineblue{
+height:50px;
+background:#2ec1f1;
+border-radius:5px;
+border:2px solid #999999;
+line-height:50px;
+color:#FFFFFF;
+font-size:18px;
+font-weight:bold;
+}
+
+div.whitetop {
+  background: #ffffff none repeat scroll 0 0;
+  color: #000000;
+  height: 450px;
+  padding-top: 30px;
+}
+
+div#gameboard div.whitetop{
+  background:#2EC1F1;
+}
+
+
+
+
+.game-container .equationboard tr td .answeroption{
+height:50px;
+border-radius:5px;
+border:2px solid #2EC1F1;
+line-height:50px;
+font-size:18px;
+font-weight:bold;
+color:#F89A3B;
+cursor:pointer;
+}
+
+div#gameboard .equationboard tr td .answeroption{
+height:50px;
+border-radius:5px;
+border:2px solid #666666;
+line-height:50px;
+font-size:18px;
+font-weight:bold;
+color:#F89A3B;
+cursor:pointer;
+background:#FFFFFF;
+}
+
+table.gameboard tr td img{
+width:100px;
+height:100px;
+}
+
+div.lavelprogress{
+height:12px;
+border:1px solid black;
+width:300px;
+margin:0px auto;
+margin-top:20px;
+}
+
+div.lavelprogressbar{
+background:#F89A3B;
+height:10px;
+}
+
+
+div.success {
+  display: none;
+  height: 320px;
+  left: 217px;
+  position: absolute;
+  top: 0;
+  width: 310px;
+}
+
+div.success img{
+margin-top:165px;
+}
+
+div.labelname span{
+color:#F89A3B;
+font-weight:bold;
+float:right;
+padding:5px;
+font-size:18px;
+}
+
+
+
+div.thankyouscreen{
+padding:0px;
+border:none;
+}
+
+div.tutorialdemotxt {
+  background: #999999 none repeat scroll 0 0;
+  border-top: 1px solid black;
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 47px;
+  padding: 10px;
+  position: relative;
+}
+
+a.replaytxt {
+  background: rgba(0, 0, 0, 0) url("../images/replay.png") no-repeat scroll left center;
+  color: #000000;
+  display: inline-block;
+  line-height: 65px;
+  padding-left: 60px;
+}
+
+div.graytop{
+background:#999999;
+color:#FFFFFF;
+padding-top:100px;
+height:370px;
+font-size:18px;
+}
+
+div.graytop h3{
+margin-bottom:30px;
+}
+
+
+
+a.nextgamelink{
+display:block;
+line-height:78px;
+background:#f89a3b;
+border:1px solid black;
+text-decoration:none;
+color:#FFFFFF;
+font-size:18px;
+position:absolute;
+bottom:0px;
+width:750px;
+}
+
+a.clicktobegin{
+background:#2ec1f1;
+}
+
+
+
+div.container{
+display:none;
+}
+
+
+.noborder{
+border:none;
+}
+.hasborder{
+border:2px solid gray;
+}
+.strong{
+font-weight:bold;
+}
+.blacktext{
+color:#000000;
+font-size:16px;
+}
+.orangetext{
+color:#f89a3b;
+}
+
+.greentext{
+color:#00AA00;
+}
+
+div#gameboard .equationboard{
+table-layout:fixed;
+}
+
+.game-container .equationboard tr td .correct{
+border-color:#006600;
+background:#00AA00;
+color:#FFFFFF;
+}
+
+div#gameboard .equationboard tr td .correct{
+border-color:#006600;
+background:#00AA00;
+color:#FFFFFF;
+}
+
+div#gameboard .equationboard tr td .wrong{
+border-color:#660000;
+background:#AA0000;
+color:#FFFFFF;
+}
+
+a.nextbtn {
+  background: #f89a3b none repeat scroll 0 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
+  float: right;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 3px 20px;
+  text-decoration: none;
+}
+
+a.backbtn {
+  background: #FFFFFF none repeat scroll 0 0;
+  border: 1px solid #f89a3b;
+  border-radius: 5px;
+  color: #f89a3b;
+  display: inline-block;
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 3px 20px;
+  text-decoration: none;
+}
+
+
+
+.hasborder {
+  border: 2px solid gray;
+}
+.content-wrap{
+margin-top:60px;
+}
+
+.navigation-container {
+  margin: 20px auto;
+  width: 750px;
+}
+
+.navigation-next
+{
+  border-radius:15px;
+  text-align: center;
+  float: right;
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  font-weight:bold;
+  border:1px solid black;
+  background-color: #F79D48;
+  color: white;
+}
+.navigation-back
+{
+  border-radius:15px;
+  text-align: center;
+  float: left;
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  font-weight:bold;
+  border:2px solid #F89A3B;
+  color: #F89A3B;
+  background-color: white;
+}

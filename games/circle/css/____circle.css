@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+
+div#game2{
+font-size:18px;
+margin-top:50px;
+font-family: "Open Sans","Arial",sans-serif;
+font-size: 18px;
+line-height: 1.6em;
+
+}
+table{
+width:100%;
+}
+table tr.trcenter td{
+text-align:center;
+}
+
+div#game2 div.game-container {
+  border: 2px solid black;
+  margin: 0 auto;
+  min-height: 400px;
+  padding: 10px;
+  text-align: left;
+  width: 800px;
+}
+
+div#screen2{
+display:none;
+}
+
+div#screen3{
+display:none;
+}
+
+
+div#game2 div#screen3 div.game-container{
+text-align:center;
+}
+
+div#screen4{
+display:none;
+}
+
+div#screen3 img{
+margin:0px auto;
+display:none;
+}
+
+img.singleImage{
+margin:0px auto;
+}
+
+p.textscreen1,p.textscreen4{
+line-height:100px;
+text-align:center;
+}
+
+span.strong{
+font-weight:bold;
+}
+span.strongsmall{
+font-weight:bold;
+font-size:16px;
+}
+
+div#game2 table tr th, div#game2 table tr td{
+border:none;
+}
